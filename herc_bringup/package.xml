@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>herc_bringup</name>
+  <version>1.2.0</version>
+  <description>
+    roslaunch scripts for starting the HERC
+  </description>
+  <license>Apache 2.0</license>
+  <author email="daegumsoli@naver.com">sonjk</author>
+  <maintainer email="daegumsoli@naver.com">sonjk</maintainer>
+  <url type="repository">https://github.com/sonjk/herc</url>
+  <url type="bugtracker">https://github.com/sonjk/herc/issues</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+
+</package>
