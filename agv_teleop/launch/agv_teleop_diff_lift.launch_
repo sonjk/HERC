@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+    <rosparam command="load" file="$(find agv_can)/launch/agv_can_param.yaml" />
+    <rosparam command="load" file="$(find agv_teleop)/launch/agv_teleop_diff_param.yaml" />
+    <node pkg="agv_teleop" type="agv_teleop_diff_node" name="agv_teleop_diff_node" output="screen" />
+    <node pkg="agv_teleop" type="agv_timer_lift_node" name="agv_timer_ligt_node" output="screen" />
+
+</launch>

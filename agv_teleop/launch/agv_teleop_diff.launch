@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <rosparam command="load" file="$(find agv_teleop)/launch/agv_teleop_diff_param.yaml" ns="AGV_DIFF" />
+    <node pkg="agv_teleop" type="agv_teleop_diff_node" name="agv_teleop_diff_node" output="screen" ns="AGV_DIFF" />
+
+</launch>
