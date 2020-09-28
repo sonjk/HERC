@@ -1,7 +1,0 @@
-#tleop_diff parameter
-
-teleop_angular_z_max: 1.0
-teleop_linear_x_max: 1.0
-teleop_linear_y_max: 0.0
-
-
